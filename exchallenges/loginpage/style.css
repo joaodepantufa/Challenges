@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(71, 12, 98), rgb(114, 18, 114));
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {   
+    background-color: white;
+}
+
+.imagem > img {
+    max-width: 460px;
+}
+
+h1 {
+    padding-left: 5rem;
+    padding-top: 1.5rem;
+}
+
+
