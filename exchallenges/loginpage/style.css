@@ -18,18 +18,34 @@ body {
 
 .main {   
     background-color: white;
+    height: 80vh;
+    border-radius: 10px;
 }
 
 .imagem > img {
     max-width: 460px;
+    border-radius: 10px 10px 0px 0px;
 }
 
-h1 {
-    padding-left: 5rem;
-    padding-top: 1.5rem;
-}
-
-.main > .login > form {
+.login {
     display: flex;
+    justify-content: center;
+    align-items: left;
     flex-direction: column;
+    padding-left: 4rem;
+    padding-top: 2rem;
 }
+
+.login > form {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    
+}
+
+.switchcontainer {
+    display: flex;
+}
+
+
