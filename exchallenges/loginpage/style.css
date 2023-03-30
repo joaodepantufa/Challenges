@@ -29,4 +29,7 @@ h1 {
     padding-top: 1.5rem;
 }
 
-
+.main > .login > form {
+    display: flex;
+    flex-direction: column;
+}
